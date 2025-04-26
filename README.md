@@ -11,10 +11,16 @@ GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Pred
 (4) Tests show GHOST outperforms stock models in both Chinese and U.S. markets.<br>
 其中的框架设计、实验验证、论文写作和作图以及投稿均由我独立完成（2023-9到2025-4），其中的开源链接为：<br>
 
-二、科研项目经历
-（I）主持省级大学生创业实践项目——《吾线科技——车载4D成像毫米波雷达天线引领者》2024.3-至今。<br>
+二、科研项目经历<br>
+（I）主持省级大学生创业实践项目——```《吾线科技——车载4D成像毫米波雷达天线引领者》```2024.3-至今。<br>
 工作：作为项目组第一负责人主持项目，统筹项目申报、执行及结题工作。同时主要负责团队中基于MIMO的FMCW的雷达算法。<br>
 成果：并作为第二负责人获得中国国际大学生创新大赛湖北省银奖、iCAN创新创业大赛湖北银奖。并与德赛西威（南京）等公司进行技术交流。<br>
+
+（II）```基于双路径特征提取的 AI 生成人脸图像识别``` 2024-9到2024-12<br>
+任务：如何在复杂的数据分布下精确识别和区分AI生成与真实人脸图像的细微特征差异。<br>
+方案：提出了基于DualFace-RCSD (Dual-ResNet Face Real-Synthetic Cascaded Detector)的AI生成人脸图像识别。采用并行的ResNet50网络作为backbone，分别处理MTCNN人脸检测后的图像和原始图像，并融合两个 ResNet50 网络预测结果的置信度以及多维特征，最终使用决策树实现对 AI 生成人脸的精确识别。<br>
+文件地址：
+
 <!--
 **WHUT-zwj/WHUT-zwj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
