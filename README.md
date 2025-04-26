@@ -21,6 +21,9 @@ GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Pred
 方案：提出了基于DualFace-RCSD (Dual-ResNet Face Real-Synthetic Cascaded Detector)的AI生成人脸图像识别。采用并行的ResNet50网络作为backbone，分别处理MTCNN人脸检测后的图像和原始图像，并融合两个 ResNet50 网络预测结果的置信度以及多维特征，最终使用决策树实现对 AI 生成人脸的精确识别。<br>
 文件地址：
 
+（III）
+
+
 <!--
 **WHUT-zwj/WHUT-zwj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
