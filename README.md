@@ -5,7 +5,7 @@
 一、论文发表：一篇SCI一区Expert Systems with Applications论文独立一作在投，GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction，以下是论文的创新点介绍：<br>
 （I）从数量、极性、分布上提取的新闻文本中的市场情感并利用层次化门控与股票数据精准融合；<br>
 （II）利用股票共享的动态参数Mamba高效建模股票序列的时序依赖性，并提供特定的金融时序偏置；<br>
-（III）创新性的提出Stock-wise Tokenization并利用多头注意力计算股票token间的注意力，达到时间线性计算复杂度的同时，挖掘出股票的深层次关联；<br>
+（III）提出Stock-wise Tokenization并利用计算股票token间的注意力，达到时间线性计算复杂度的同时，挖掘出股票间的深层次关联；<br>
 （IV）我们提出的情感融合多股预测模型（GHOST）在实验中优于最新的时间序列模型和股票预测模型。<br>
 其中的框架设计、实验验证、论文写作和作图都是我独立完成（2023-9到2025-4），其中的开源链接为：<br>
 二、科研项目经历
