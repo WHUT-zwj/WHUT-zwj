@@ -3,19 +3,20 @@
 ✨ Research Skills: (1) **Strong practical skills and self-motivation.** I have extensive experience in reproducing deep learning projects and practical experience in data mining. I have independently studied the deployment and fine-tuning of large models and the construction of the MCP Server. Furthermore, I possess considerable experience in mathematical modeling (primarily as a modeler, with auxiliary programming and writing responsibilities). (2) **Solid research experience.** I have undergone one and a half years of comprehensive research training, enabling me to independently complete the entire research workflow, including deep learning framework construction, experimental design and implementation, visualization, academic paper writing, and submission. (3) **Theoretical derivation capabilities.** My current research focuses on deriving an approach that utilizes manifold geometry to approximate optimal transport for multimodal time series alignment, producing concise yet impactful work. (4) **English proficiency:** I have successfully passed CET-4 and CET-6, can write academic papers in English, and maintain a daily habit of reading English literature. The following section details my specific experiences: <br>
 
 
-### 一、科研论文
-💬（一） 期刊论文：SCI一区Expert Systems with Applications独立一作Under Review<br> 《GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction》<br>
-**痛点：** <br>
-（I） 当前的情绪分析方法对市场情绪量化不足，缺乏针对市场波动的动态自适应整合机制。<br>
-（ii） Transformer的Quadratic Complexity，限制了对股票的长期预测，同时缺乏金融特有的时间归纳偏差。<br>
-（iii） 传统的temporal tokenization 范式强行将多股票特征合并，削弱了股票相关性建模，同时大幅增加了计算成本。<br>
-**创新点：** <br>
-（i） 从数量、极性、分布三个方面提取新闻文本中的市场情感，并通过层次化情感门控与股票数据进行动态自适应融合；<br>
-（ii） 利用股票共享的动态参数Mamba进行高效的股票序列建模，同时提供特定的金融时序偏置来精准捕捉时序依赖性；<br>
-（iii） 提出Stock-wise Tokenization并计算股票token间的注意力，从而确保时间线性计算复杂度的同时，挖掘股票的相关性。<br>
-**延续工作：** 尝试推导利用流形几何近似最优传输来对齐情感数据和股票数据，进而推广到多模态时序对齐。<br>
-**个人贡献：** 模型搭建、实验设计与实现、可视化和论文写作<br>
-```项目链接为：```https://github.com/WHUT-zwj/GHOST <br>
+### I. Research Papers
+💬 (I) Journal Paper: SCI Q1, Expert Systems with Applications, Independent First Author, Under Review<br>
+《GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction》<br>
+**Pain Points:** <br>
+(I) Current sentiment analysis methods exhibit insufficient market sentiment quantification and lack dynamic adaptive integration mechanisms for market fluctuations.<br>
+(II) Transformer-based models' quadratic complexity limits long-term stock prediction while lacking finance-specific temporal inductive biases.<br>
+(III) Traditional temporal tokenization paradigms forcibly merge multi-stock features, weakening stock correlation modeling while dramatically increasing computational costs.<br>
+**Innovations:** <br>
+(I) Extracted market sentiment from news text in terms of quantity, polarity, and distribution, and dynamically fused it with stock data via hierarchical sentiment gates.<br>
+(II) Utilized Mamba with shared dynamic parameters across stocks for efficient stock sequence modeling, while providing specific financial time-series biases to accurately capture temporal dependencies.<br>
+(III) Proposed Stock-wise Tokenization and computed attention between stock tokens, thereby ensuring linear computational complexity in time while mining inter-stock correlations.<br>
+**Future Work:** Exploring the derivation of manifold geometry to approximate optimal transport for aligning sentiment data and stock data, with the aim of generalizing to multi-modal time series alignment.<br>
+**Personal Contributions:** Model construction, experimental design and implementation, visualization, and manuscript writing.<br>
+```Project Link:``` https://github.com/WHUT-zwj/GHOST <br>
 
 💬（二） 会议论文：CCF B European Conference on Artificial Intelligence(ECAI) 二作Under Review<br>
 《LAMM-ViT: AI Face Detection via Layer-Aware Modulation of Region-Guided Attention》<br>
