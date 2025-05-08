@@ -3,7 +3,7 @@
 
 
 ### 一、科研论文
-（一） 期刊论文：SCI一区Expert Systems with Applications独立一作Under Review<br> 《GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction》<br>
+💬（一） 期刊论文：SCI一区Expert Systems with Applications独立一作Under Review<br> 《GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction》<br>
 **痛点：** <br>
 （I） 当前的情绪分析方法对市场情绪量化不足，缺乏针对市场波动的动态自适应整合机制。<br>
 （ii） Transformer的Quadratic Complexity，限制了对股票的长期预测，同时缺乏金融特有的时间归纳偏差。<br>
@@ -15,6 +15,19 @@
 **延续工作：** 尝试推导利用流形几何近似最优传输来对齐情感数据和股票数据，进而推广到多模态时序对齐。<br>
 **个人贡献：** 模型搭建、实验设计与实现、可视化和论文写作<br>
 ```项目链接为：```https://github.com/WHUT-zwj/GHOST <br>
+
+💬（二） 会议论文：CCF B European Conference on Artificial Intelligence(ECAI) 二作Under Review<br>
+《LAMM-ViT: AI Face Detection via Layer-Aware Modulation of Region-Guided Attention》<br>
+**痛点：** 
+(i) 现有检测方法对新型生成技术的泛化能力不足，常过度依赖表面伪影而非深层结构性缺陷。<br>
+(ii) 传统注意力机制缺乏跨层动态调整能力，难以有效捕获伪造人脸的层次化、区域性不一致特征。<br>
+(iii) 高级生成模型在维持面部各区域间细微结构关联性方面存在固有局限，此弱点未被充分利用。<br>
+**创新点：** 
+(i) 提出区域引导多头注意力 (RG-MHA)，利用面部关键点精确引导模型聚焦于区域间的结构不一致性。<br>
+(ii) 引入层感知掩码调制 (LAMM)，实现跨网络深度的区域注意力动态调整，以捕获多层次伪造特征。<br>
+(iii) 设计掩码多样性损失 (Ldiv)，激励模型学习多样化的检测策略，增强对未知生成技术的泛化性能。<br>
+**个人贡献：** methodology写作，可视化，协助对比实验
+
 
 ### 二、科研项目经历<br>
 ```相应的项目文件地址:``` https://github.com/WHUT-zwj/Project-Introduction <br>
