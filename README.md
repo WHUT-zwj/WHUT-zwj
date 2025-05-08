@@ -43,37 +43,36 @@
 **Achievement:** Meritorious Winner (International First Prize equivalent) in the MCM/ICM International Collegiate Mathematical Contest in Modeling.<br>
 
 
-⚡（III） 项目三：```基于双路径特征提取的 AI 生成人脸图像识别``` 2024-9到2024-12<br>
-**任务：** 如何在复杂的数据分布下精确识别和区分AI生成与真实人脸图像的细微特征差异。<br>
-**方案：** 提出了基于DualFace-RCSD (Dual-ResNet Face Real-Synthetic Cascaded Detector)的AI生成人脸图像识别。采用并行的ResNet50网络作为backbone，分别处理MTCNN人脸检测后的图像和原始图像，并融合两个 ResNet50 网络预测结果的置信度以及多维特征，最终使用决策树实现对 AI 生成人脸的精确识别。<br>
-**成果：** 全球校园人工智能校园算法精英挑战赛全国二等奖<br>
+⚡ (III) Project 3: ```AI-Generated Face Image Recognition Based on Dual-Path Feature Extraction``` (Core Team Member) (September 2024 - December 2024).<br>
+**Task:** To accurately identify and distinguish subtle feature differences between AI-generated and real face images under complex data distributions.<br>
+**Solution:** Proposed an AI-generated face image recognition method based on DualFace-RCSD (Dual-ResNet Face Real-Synthetic Cascaded Detector). This approach utilizes parallel ResNet50 networks as the backbone to process images separately after MTCNN face detection and the original images. It then fuses the confidence scores and multi-dimensional features from the predictions of both ResNet50 networks, ultimately employing a decision tree for precise identification of AI-generated faces.<br>
+**Achievement:** National Second Prize in the Global Campus AI Algorithm Elite Challenge.<br>
 
-⚡(IV) 项目四：```基于多目标随机规划模型的农作物种植与销售联合决策```（负责人）2024.9<br>
-**任务：** 解决华北乡村农作物优化种植问题，难点在于价格波动不确定性、作物间复杂关系及长期风险管理的平衡。<br>
-**方案：** 建立多目标随机规划模型，结合蒙特卡洛模拟与NSGA-II算法求解最优种植策略，平衡效益与风险。<br>
-**个人贡献：** 建模与框架搭建，模型与结果分析部分写作、可视化、罚函数打补丁部分编程实现。<br>
-**成果：** 全国大学生数学建模竞赛湖北省一等奖
+⚡ (IV) Project 4: ```Joint Decision-Making for Crop Planting and Sales Based on a Multi-Objective Stochastic Programming Model``` (Project Lead) (September 2024).<br>
+**Task:** To address the crop planting optimization problem in rural North China, with key challenges including the uncertainty of price fluctuations, complex inter-crop relationships, and balancing long-term risk management.<br>
+**Solution:** Developed a multi-objective stochastic programming model, integrating Monte Carlo simulation with the NSGA-II algorithm to determine optimal planting strategies that balance profitability and risk.<br>
+**Personal Contributions:** Responsible for modeling and framework construction, writing sections on model and result analysis, visualization, and programming the penalty function patching.<br>
+**Achievement:** Hubei Provincial First Prize in the National College Student Mathematical Contest in Modeling.<br>
 
-⚡（V） 项目五：```基于残差神经网络的苹果识别及采摘点定位```（负责人）2024.4<br>
-**任务：**解决采摘机器人在遮挡、重叠和光影干扰下的苹果识别与定位难题。<br>
-**方案：**首先基于模糊聚类进行苹果分割，再利用改进的Canny边缘检测定位，后转化到HIV空间进行Resnet50分类。<br> 
-**个人贡献：**建模与框架搭建，模型与结果分析部分写作、可视化、模糊聚类和Resnet50编程实现。<br>
-**成果：**亚太地区大学生数学建模竞赛国际一等奖<br>
+⚡ (V) Project 5: ```Apple Recognition and Picking Point Localization Based on Residual Neural Network``` (Project Lead) (April 2024).<br>
+**Task:** To address the challenges of apple recognition and localization for picking robots under conditions of occlusion, overlap, and light/shadow interference.<br>
+**Solution:** Initially, apples were segmented using fuzzy clustering. Subsequently, an improved Canny edge detection algorithm was utilized for localization. Finally, the images were transformed into the HSV color space for classification using ResNet50.<br>
+**Personal Contributions:** Responsible for modeling and framework construction, writing sections on model and result analysis, visualization, and programming the fuzzy clustering and ResNet50 implementation.<br>
+**Achievement:** International First Prize (Outstanding Winner equivalent) in the Asia-Pacific Mathematical Contest in Modeling.<br>
 
-⚡（VI） 项目六：```大数据下的贫困数据挖掘与相对贫困识别```（第一成员）<br>
-**任务：** 解决相对贫困识别的多维复杂性问题，建立科学的识别体系实现精准分类。<br>
-**方案：** 构建了多维贫困-振兴协同指标体系，基于随机森林进行特征选择，利用Bayes成本敏感神经网络进行识别。<br>
-**个人贡献：** 建模与框架搭建，预处理、模型、结果分析部分写作、可视化、特征选择编程实现。<br>
-**成果：** 计算机设计大赛中南赛区一等奖<br>
+⚡ (VI) Project 6: ```Poverty Data Mining and Relative Poverty Identification under Big Data``` (Core Team Member).<br>
+**Task:** To address the multi-dimensional complexity of relative poverty identification and establish a scientific identification system for precise classification.<br>
+**Solution:** Constructed a multi-dimensional poverty-revitalization synergistic indicator system, performed feature selection based on Random Forest, and utilized a Bayesian cost-sensitive neural network for identification.<br>
+**Personal Contributions:** Responsible for modeling and framework construction, writing sections on preprocessing, model, and result analysis, visualization, and programming the feature selection implementation.<br>
+**Achievement:** First Prize in the Central South Regional Competition of the China Collegiate Computer Design Contest.<br>
 
-### 三、未来规划
+### III. Future Plans
+🌱 I plan to delve deeply into the frontiers of Artificial Intelligence during my doctoral studies. Given the current trend of high interdisciplinary integration among AI branches, I aim to maintain an open mind to actively learn and explore various directions, including but not limited to Machine Learning Theory, Computer Vision, Natural Language Processing, Large Model Alignment or Lightweighting, Embodied Intelligence, and Large Model Safety. I aim to identify a specific research topic that ignites my passion.<br>
+🌱 My current research interests are particularly focused on directions built upon a solid foundation of theoretical derivation, can be closely integrated with deep learning models, and ultimately have clear vertical application scenarios. I aspire to explore the fundamental principles of intelligent behavior through rigorous mathematical modeling and theoretical analysis. Furthermore, I am committed to applying these theoretical insights to enhance existing deep learning algorithms' performance, interpretability, or generalization capabilities. For instance, my current exploration involves leveraging manifold geometry to approximate optimal transport for multi-modal time series alignment. Through this, I hope to uncover the intrinsic nature of how neural networks learn distributions and topological structures, and even investigate whether this approach can address the "shallow alignment" problem in large model safety, as well as how to discover multiple research problems and develop various models stemming from optimal transport theory.
 
-🌱我计划在博士阶段深入探索人工智能的前沿领域。鉴于当前人工智能各分支高度交叉融合的趋势，我希望能够以开放的心态积极学习和探索包括但不限于机器学习理论、计算机视觉、自然语言处理、大模型对齐或轻量化、具身智能、大模型安全等多个方向，致力于寻找能够激发我研究热情的具体课题。<br>
-🌱我目前的研究兴趣尤其聚焦于那些以坚实理论推导为基石，并能与深度学习模型紧密结合，最终能有垂直应用场景的研究方向。我期望通过严谨的数学建模与理论分析，探索智能行为的本质规律，并致力于将这些理论洞见应用于改进现有深度学习算法的性能、可解释性或泛化能力，包括我现在正在尝试的利用流形几何近似最优传输来进行多模态时间序列对齐，正是希望能够挖掘神经网络学习其分布和拓扑结构的内在本质，甚至乎是否能够应对大模型安全对齐中的“浅层对齐”问题，以及如何才能从最优传输这一理论去发现多个问题，延伸出多个模型。
-
-### 四、联系方式
-电话：13534926288
-电子邮箱：whutzwj@163.com
+### IV. Contact Information
+Phone: 13534926288
+Email: whutzwj@163.com
 
 <!--
 **WHUT-zwj/WHUT-zwj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
