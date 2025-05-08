@@ -5,6 +5,7 @@
 
 ### I. Research Papers
 💬 (I) Journal Paper: SCI Q1, Expert Systems with Applications, Independent First Author, Under Review<br>
+
 **GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction** <br>
 **Pain Points:** <be>
 **( i )** Current sentiment analysis methods exhibit insufficient market sentiment quantification and lack dynamic adaptive integration mechanisms for market fluctuations.<br>
