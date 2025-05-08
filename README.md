@@ -9,7 +9,7 @@ GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Pred
 (2) Stock parameter-sharing Mamba models temporal dependencies efficiently. <br>
 (3) Attention between stock tokens was computed based on Stock-wise Tokenization.<br>
 (4) Tests show GHOST outperforms stock models in both Chinese and U.S. markets.<br>
-其中的框架设计、实验验证、论文写作和作图以及投稿均由我独立完成（2023-9到2025-4），其中的开源链接为：<br>
+其中的框架设计、实验验证、论文写作和作图以及投稿均由我独立完成（2023-9到2025-4），其中的开源链接为：https://github.com/WHUT-zwj/GHOST <br>
 
 二、科研项目经历<br>
 （I）主持省级大学生创业实践项目——```《吾线科技——车载4D成像毫米波雷达天线引领者》```2024.3-至今。<br>
