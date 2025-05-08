@@ -3,7 +3,7 @@
 
 
 
-1. 期刊论文：SCI一区Expert Systems with Applications独立一作Under Review 《GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction》<br>
+（一） 期刊论文：SCI一区Expert Systems with Applications独立一作Under Review<br> 《GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction》<br>
 **痛点：** <br>
 （I） 当前的情绪分析方法对市场情绪量化不足，缺乏针对市场波动的动态自适应整合机制。<br>
 （ii） Transformer的Quadratic Complexity，限制了对股票的长期预测，同时缺乏金融特有的时间归纳偏差。<br>
