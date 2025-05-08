@@ -2,13 +2,13 @@
 ✨ ✨ 我是武汉理工大学信息与计算科学专业的一名学生，热爱AI和一些前沿的技术，参与过的科研经历有时间序列预测、人脸识别、图像识别应用。有着非常丰富的数学建模经验（主建模，辅助编程写作），还有过参与一些创新创业比赛的经验，具备编程能力、作图能力、写作能力以及理论推导能力。目前的工作进展是基于最优传输理论进行多模态时间序列对齐。总结而言，动手能力较强，热爱前沿技术，富有探索经验，喜欢新事物新知识。以下是具体的经历：
 
 ### 科研经历：<br>
-一、论文发表：一篇SCI一区Expert Systems with Applications论文独立一作在投。<br>
-GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction，以下是论文的Highlights：<br>
-(1) Hierarchical gating integrates market sentiment extracted from news. <br>
-(2) Stock parameter-sharing Mamba models temporal dependencies efficiently. <br>
-(3) Attention between stock tokens was computed based on Stock-wise Tokenization.<br>
-(4) Tests show GHOST outperforms stock models in both Chinese and U.S. markets.<br>
-其中的框架设计、实验验证、论文写作和作图以及投稿均由我独立完成（2023-9到2025-4）<br>
+1. 期刊论文：SCI一区Expert Systems with Applications独立一作Under Review<br>
+《GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction》<br>
+**痛点：** (i) 当前的情绪分析方法对市场情绪量化不足，缺乏针对市场波动的动态自适应整合机制。(ii) Transformer的Quadratic Complexity，限制了对股票的长期预测，同时缺乏金融特有的时间归纳偏差。(iii)传统的temporal tokenization 范式强行将多股票特征合并，削弱了股票相关性建模，同时大幅增加了计算成本。<br>
+**创新点：** (i)从数量、极性、分布三个方面提取新闻文本中的市场情感，并通过层次化情感门控与股票数据进行动态自适应融合；(ii)利用股票共享的动态参数Mamba进行高效的股票序列建模，同时提供特定的金融时序偏置来精准捕捉时序依赖性；(iii)提出Stock-wise Tokenization并计算股票token间的注意力，从而确保时间线性计算复杂度的同时，挖掘股票的相关性。<br>
+**延续工作：** 尝试推导利用流形几何近似最优传输来对齐情感数据和股票数据，进而推广到多模态时序对齐。<br>
+**个人贡献：** 模型搭建、实验设计与实现、可视化和论文写作<br>
+
 项目链接为：https://github.com/WHUT-zwj/GHOST <br>
 
 二、科研项目经历<br>
