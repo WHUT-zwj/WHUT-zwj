@@ -1,6 +1,6 @@
 ## Welcome to Weijie Zhu's Homepage 😄😄
-✨ I am an undergraduate student majoring in Information and Computational Science (Class of 2022) at Wuhan University of Technology. **I am eligible for recommendation for postgraduate admission without examination this year** and possess a **strong aspiration to pursue doctoral studies!** <br>
-✨ Research Skills: (1) **Strong practical skills and self-motivation.** I have extensive experience in reproducing deep learning projects and practical experience in data mining. I have independently studied the deployment and fine-tuning of large models, as well as MCP Server construction. Furthermore, I possess considerable experience in mathematical modeling (primarily as a modeler, with auxiliary programming and writing responsibilities). (2) **Solid research experience.** I have undergone one and a half years of comprehensive research training, enabling me to independently complete the entire research workflow, including deep learning framework construction, experimental design and implementation, visualization, academic paper writing, and submission. (3) **Theoretical derivation capabilities.** My current research focuses on deriving an approach that utilizes manifold geometry to approximate optimal transport for multimodal time series alignment, with the aim of producing a concise yet impactful piece of work. (4) **English proficiency:** I have successfully passed CET-4 and CET-6, possess the ability to write academic papers in English, and maintain a daily habit of reading English literature. The following section details my specific experiences: <br>
+✨ I am an undergraduate student majoring in Information and Computational Science (Class of 2022) at Wuhan University of Technology. **I am on the postgraduate recommendation track this year** and possess a **strong aspiration to pursue doctoral studies!** <br>
+✨ Research Skills: (1) **Strong practical skills and self-motivation.** I have extensive experience in reproducing deep learning projects and practical experience in data mining. I have independently studied the deployment and fine-tuning of large models and the construction of the MCP Server. Furthermore, I possess considerable experience in mathematical modeling (primarily as a modeler, with auxiliary programming and writing responsibilities). (2) **Solid research experience.** I have undergone one and a half years of comprehensive research training, enabling me to independently complete the entire research workflow, including deep learning framework construction, experimental design and implementation, visualization, academic paper writing, and submission. (3) **Theoretical derivation capabilities.** My current research focuses on deriving an approach that utilizes manifold geometry to approximate optimal transport for multimodal time series alignment, producing concise yet impactful work. (4) **English proficiency:** I have successfully passed CET-4 and CET-6, can write academic papers in English, and maintain a daily habit of reading English literature. The following section details my specific experiences: <br>
 
 
 ### 一、科研论文
@@ -30,17 +30,17 @@
 **个人贡献：** methodology写作，可视化，协助对比实验
 
 
-### 二、科研项目经历<br>
-```相应的项目文件地址:``` https://github.com/WHUT-zwj/Project-Introduction <br>
-⚡（I） 项目一：主持省级大学生创业实践项目——```《吾线科技——车载4D成像毫米波雷达天线引领者》```2024.3-至今。<br>
-**工作：** 作为项目组第一负责人主持项目，管理团队、统筹项目申报、执行及结题工作。同时主要负责团队中基于MIMO的FMCW的雷达算法。<br>
-**成果：** 并以第二负责人获得中国国际大学生创新大赛湖北省银奖、iCAN创新创业大赛湖北银奖。并与德赛西威（南京）等公司进行技术交流。<br>
+### II. Research Project Experience<br>
+`Relevant project files:` https://github.com/WHUT-zwj/Project-Introduction <br>
+⚡ (I) Project 1: Led a Provincial-level Undergraduate Entrepreneurial Practice Project — ```Wuxian Technology — Leader in Automotive 4D Imaging Millimeter-Wave Radar Antennas``` (March 2024 - Present).<br>
+**Responsibilities:** As the primary project lead, I managed the team and coordinated the project's application, execution, and conclusion. I was also primarily responsible for developing the team's MIMO-based FMCW radar algorithms.<br>
+**Achievements:** As the second person-in-charge, the project secured Silver Awards in both the Hubei Provincial China International College Students' 'Internet+' Innovation and Entrepreneurship Competition and the Hubei Provincial iCAN Innovation and Entrepreneurship Competition. Additionally, I engaged in technical exchanges with companies such as Desay SV (Nanjing).<br>
 
-⚡（II） 项目二：```基于时空分布和零截断特性的奥运奖牌预测```（负责人）2024.1<br>
-**任务：** 解决奥运奖牌分布高度偏态与零截断问题的同时，结合教练效应，识别已获奖和首次获奖国家并量化不确定性。<br>
-**方案：** 挖掘奖牌趋势的时空特性，引入Tobit突破零截断限制，用AHP-GRA量化教练效应，并用随机森林进行奖牌预测。<br>
-**个人贡献：** 建模与框架搭建，模型与结果分析部分写作、可视化、时空特性挖掘和Tobit编程实现。<br>
-**成果：** MCM/ICM国际大学生数学建模竞赛国际一等奖<br>
+⚡ (II) Project 2: ```Olympic Medal Prediction Based on Spatio-temporal Distribution and Zero-Truncation Characteristics``` (Project Lead) (January 2024).<br>
+**Task:** To address the highly skewed distribution and zero-truncation issues in Olympic medal counts, while incorporating the coach effect, identifying both previously medaled and first-time medaling countries, and quantifying uncertainty.<br>
+**Solution:** We mined the spatio-temporal characteristics of medal trends, introduced the Tobit model to overcome zero-truncation limitations, quantified the coach effect using AHP-GRA, and employed Random Forest for medal prediction.<br>
+**Personal Contributions:** Responsible for modeling and framework construction, writing sections on model and result analysis, visualization, spatio-temporal feature mining, and Tobit model programming and implementation.<br>
+**Achievement:** Meritorious Winner (International First Prize equivalent) in the MCM/ICM International Collegiate Mathematical Contest in Modeling.<br>
 
 
 ⚡（III） 项目三：```基于双路径特征提取的 AI 生成人脸图像识别``` 2024-9到2024-12<br>
