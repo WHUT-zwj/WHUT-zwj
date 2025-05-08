@@ -5,15 +5,15 @@
 
 ### I. Research Papers
 💬 (I) Journal Paper: SCI Q1, Expert Systems with Applications, Independent First Author, Under Review<br>
-《GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction》<br>
-**Pain Points:** <br>
-(I) Current sentiment analysis methods exhibit insufficient market sentiment quantification and lack dynamic adaptive integration mechanisms for market fluctuations.<br>
-(II) Transformer-based models' quadratic complexity limits long-term stock prediction while lacking finance-specific temporal inductive biases.<br>
-(III) Traditional temporal tokenization paradigms forcibly merge multi-stock features, weakening stock correlation modeling while dramatically increasing computational costs.<br>
-**Innovations:** <br>
-(I) Extracting comprehensive market sentiment representations from massive sentiment-analyzed news (polarity, volume, and distribution features), and implementing a Hierarchical Sentiment-gating Layer for dynamic adaptive integration of affective features with trading data.<br>
-(II) Dynamically parameterized Intra-Stock Mamba Selection Layer introduces specialized financial inductive biases with time-series linear complexity<br>
-(III) Stock-wise Tokenization Layer converts temporal tokens into stock tokens preserving sequence integrity, and Inter-Stock Attention Layer captures market correlations via attention between stock tokens while reducing complexity from temporal sequence ( $O(T^2)$ ) to stock quantity ( $O(N^2)$ ) where $N \ll T$.<br>
+**GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction** <br>
+**Pain Points:** <be>
+**( i )** Current sentiment analysis methods exhibit insufficient market sentiment quantification and lack dynamic adaptive integration mechanisms for market fluctuations.<be>
+**( ii ) **Transformer-based models' quadratic complexity limits long-term stock prediction while lacking finance-specific temporal inductive biases.<be>
+**( iii )** Traditional temporal tokenization paradigms forcibly merge multi-stock features, weakening stock correlation modeling while dramatically increasing computational costs.<br>
+**Innovations:** <be>
+**( i )** Extracting comprehensive market sentiment representations from massive sentiment-analyzed news (polarity, volume, and distribution features), and implementing a Hierarchical Sentiment-gating Layer for dynamic adaptive integration of affective features with trading data.<be>
+**( ii )** Dynamically parameterized Intra-Stock Mamba Selection Layer introduces specialized financial inductive biases with time-series linear complexity<be>
+**( iii )** Stock-wise Tokenization Layer converts temporal tokens into stock tokens preserving sequence integrity, and Inter-Stock Attention Layer captures market correlations via attention between stock tokens while reducing complexity from temporal sequence ( $O(T^2)$ ) to stock quantity ( $O(N^2)$ ) where $N \ll T$.<br>
 **Future Work:** Exploring the derivation of manifold geometry to approximate optimal transport for aligning sentiment data and stock data, with the aim of generalizing to multi-modal time series alignment.<br>
 **Personal Contributions:** Model construction, experimental design and implementation, visualization, and manuscript writing.<br>
 ```Project Link:``` https://github.com/WHUT-zwj/GHOST <br>
