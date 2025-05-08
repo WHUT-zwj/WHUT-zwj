@@ -9,7 +9,7 @@
 **延续工作：** 尝试推导利用流形几何近似最优传输来对齐情感数据和股票数据，进而推广到多模态时序对齐。<br>
 **个人贡献：** 模型搭建、实验设计与实现、可视化和论文写作<br>
 
-项目链接为：https://github.com/WHUT-zwj/GHOST <br>
+```项目链接为：```https://github.com/WHUT-zwj/GHOST <br>
 
 二、科研项目经历<br>
 ```相应的项目文件地址:``` https://github.com/WHUT-zwj/Project-Introduction <br>
