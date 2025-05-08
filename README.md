@@ -4,8 +4,14 @@
 ### 科研经历：<br>
 1. 期刊论文：SCI一区Expert Systems with Applications独立一作Under Review<br>
 《GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction》<br>
-**痛点：** (i) 当前的情绪分析方法对市场情绪量化不足，缺乏针对市场波动的动态自适应整合机制。(ii) Transformer的Quadratic Complexity，限制了对股票的长期预测，同时缺乏金融特有的时间归纳偏差。(iii)传统的temporal tokenization 范式强行将多股票特征合并，削弱了股票相关性建模，同时大幅增加了计算成本。<br>
-**创新点：** (i)从数量、极性、分布三个方面提取新闻文本中的市场情感，并通过层次化情感门控与股票数据进行动态自适应融合；(ii)利用股票共享的动态参数Mamba进行高效的股票序列建模，同时提供特定的金融时序偏置来精准捕捉时序依赖性；(iii)提出Stock-wise Tokenization并计算股票token间的注意力，从而确保时间线性计算复杂度的同时，挖掘股票的相关性。<br>
+**痛点：** <br>
+(i) 当前的情绪分析方法对市场情绪量化不足，缺乏针对市场波动的动态自适应整合机制。<br>
+(ii) Transformer的Quadratic Complexity，限制了对股票的长期预测，同时缺乏金融特有的时间归纳偏差。<br>
+(iii) 传统的temporal tokenization 范式强行将多股票特征合并，削弱了股票相关性建模，同时大幅增加了计算成本。<br>
+**创新点：** <br>
+(i) 从数量、极性、分布三个方面提取新闻文本中的市场情感，并通过层次化情感门控与股票数据进行动态自适应融合；<br>
+(ii) 利用股票共享的动态参数Mamba进行高效的股票序列建模，同时提供特定的金融时序偏置来精准捕捉时序依赖性；<br>
+(iii) 提出Stock-wise Tokenization并计算股票token间的注意力，从而确保时间线性计算复杂度的同时，挖掘股票的相关性。<br>
 **延续工作：** 尝试推导利用流形几何近似最优传输来对齐情感数据和股票数据，进而推广到多模态时序对齐。<br>
 **个人贡献：** 模型搭建、实验设计与实现、可视化和论文写作<br>
 
