@@ -15,54 +15,54 @@
 **( i )** Extracting comprehensive market sentiment representations from massive sentiment-analyzed news (polarity, volume, and distribution features), and implementing a Hierarchical Sentiment-gating Layer for dynamic adaptive integration of affective features with trading data.<br>
 **( ii )** Dynamically parameterized Intra-Stock Mamba Selection Layer introduces specialized financial inductive biases with time-series linear complexity<br>
 **( iii )** Stock-wise Tokenization Layer converts temporal tokens into stock tokens preserving sequence integrity, and Inter-Stock Attention Layer captures market correlations via attention between stock tokens while reducing complexity from temporal sequence ( $O(T^2)$ ) to stock quantity ( $O(N^2)$ ) where $N \ll T$.<br>
-**Future Work:** Exploring the derivation of manifold geometry to approximate optimal transport for aligning sentiment data and stock data, with the aim of generalizing to multi-modal time series alignment.<br>
+**Future Work:** Exploring the derivation of manifold geometry to approximate optimal transport for aligning sentiment data and stock data, to generalize to multi-modal time series alignment.<br>
 **Personal Contributions:** Model construction, experimental design and implementation, visualization, and manuscript writing.<br>
 ```Project Link:``` https://github.com/WHUT-zwj/GHOST <br>
 
-💬（二） 会议论文：CCF B European Conference on Artificial Intelligence(ECAI) 二作Under Review<br>
-《LAMM-ViT: AI Face Detection via Layer-Aware Modulation of Region-Guided Attention》<br>
-**痛点：** 
-(i) 现有检测方法对新型生成技术的泛化能力不足，常过度依赖表面伪影而非深层结构性缺陷。<br>
-(ii) 传统注意力机制缺乏跨层动态调整能力，难以有效捕获伪造人脸的层次化、区域性不一致特征。<br>
-(iii) 高级生成模型在维持面部各区域间细微结构关联性方面存在固有局限，此弱点未被充分利用。<br>
-**创新点：** 
-(i) 提出区域引导多头注意力 (RG-MHA)，利用面部关键点精确引导模型聚焦于区域间的结构不一致性。<br>
-(ii) 引入层感知掩码调制 (LAMM)，实现跨网络深度的区域注意力动态调整，以捕获多层次伪造特征。<br>
-(iii) 设计掩码多样性损失 (Ldiv)，激励模型学习多样化的检测策略，增强对未知生成技术的泛化性能。<br>
-**个人贡献：** methodology写作，可视化，协助对比实验
+**💬 ( II ) Conference Paper:** CCF B, European Conference on Artificial Intelligence (ECAI), Second Author, Under Review<br>
+**LAMM-ViT: AI Face Detection via Layer-Aware Modulation of Region-Guided Attention**<br>
+**Pain Points:** <be>
+**( i )** Existing detection methods exhibit insufficient generalization capabilities against novel generative techniques, often over-relying on superficial artifacts rather than deep structural flaws.<be>
+**( ii )** Traditional attention mechanisms lack cross-layer dynamic adjustment capabilities, making it difficult to effectively capture the hierarchical and regional inconsistencies characteristic of forged faces.<be>
+**( iii )** Advanced generative models have inherent limitations in maintaining subtle structural correlations between facial regions, a weakness not yet fully exploited.<br>
+**Innovations:** <be>
+**( i )** Proposed Region-Guided Multi-Head Attention (RG-MHA), which utilizes facial keypoints to precisely guide the model to focus on structural inconsistencies between regions.<be>
+**( ii )** Introduced Layer-Aware Mask Modulation (LAMM), enabling dynamic adjustment of regional attention across network depths to capture multi-level forgery features.<be>
+**( iii )** Designed a Mask Diversity Loss (Ldiv) to incentivize the model to learn diverse detection strategies, enhancing generalization performance against unknown generative techniques.<br>
+**Personal Contributions:** Methodology writing, visualization, and assisting with comparative experiments.<br>
 
 
 ### II. Research Project Experience<br>
 `Relevant project files:` https://github.com/WHUT-zwj/Project-Introduction <br>
-⚡ (I) Project 1: Led a Provincial-level Undergraduate Entrepreneurial Practice Project — ```Wuxian Technology — Leader in Automotive 4D Imaging Millimeter-Wave Radar Antennas``` (March 2024 - Present).<br>
+⚡ **( I ) Project 1:** Led a Provincial-level Undergraduate Entrepreneurial Practice Project — ```Wuxian Technology — Leader in Automotive 4D Imaging Millimeter-Wave Radar Antennas``` (March 2024 - Present).<br>
 **Responsibilities:** As the primary project lead, I managed the team and coordinated the project's application, execution, and conclusion. I was also primarily responsible for developing the team's MIMO-based FMCW radar algorithms.<br>
 **Achievements:** As the second person-in-charge, the project secured Silver Awards in both the Hubei Provincial China International College Students' 'Internet+' Innovation and Entrepreneurship Competition and the Hubei Provincial iCAN Innovation and Entrepreneurship Competition. Additionally, I engaged in technical exchanges with companies such as Desay SV (Nanjing).<br>
 
-⚡ (II) Project 2: ```Olympic Medal Prediction Based on Spatio-temporal Distribution and Zero-Truncation Characteristics``` (Project Lead) (January 2024).<br>
-**Task:** To address the highly skewed distribution and zero-truncation issues in Olympic medal counts, while incorporating the coach effect, identifying both previously medaled and first-time medaling countries, and quantifying uncertainty.<br>
+⚡ **( II ) Project 2:** ```Olympic Medal Prediction Based on Spatio-temporal Distribution and Zero-Truncation Characteristics``` (Project Lead) (January 2024).<br>
+**Task:** To address the highly skewed distribution and zero-truncation issues in Olympic medal counts, while incorporating the coach effect, identifying both previously and first-time medaling countries, and quantifying uncertainty.<br>
 **Solution:** We mined the spatio-temporal characteristics of medal trends, introduced the Tobit model to overcome zero-truncation limitations, quantified the coach effect using AHP-GRA, and employed Random Forest for medal prediction.<br>
 **Personal Contributions:** Responsible for modeling and framework construction, writing sections on model and result analysis, visualization, spatio-temporal feature mining, and Tobit model programming and implementation.<br>
 **Achievement:** Meritorious Winner (International First Prize equivalent) in the MCM/ICM International Collegiate Mathematical Contest in Modeling.<br>
 
 
-⚡ (III) Project 3: ```AI-Generated Face Image Recognition Based on Dual-Path Feature Extraction``` (Core Team Member) (September 2024 - December 2024).<br>
+⚡ **( III ) Project 3**: ```AI-Generated Face Image Recognition Based on Dual-Path Feature Extraction``` (Core Team Member) (September 2024 - December 2024).<br>
 **Task:** To accurately identify and distinguish subtle feature differences between AI-generated and real face images under complex data distributions.<br>
 **Solution:** Proposed an AI-generated face image recognition method based on DualFace-RCSD (Dual-ResNet Face Real-Synthetic Cascaded Detector). This approach utilizes parallel ResNet50 networks as the backbone to process images separately after MTCNN face detection and the original images. It then fuses the confidence scores and multi-dimensional features from the predictions of both ResNet50 networks, ultimately employing a decision tree for precise identification of AI-generated faces.<br>
 **Achievement:** National Second Prize in the Global Campus AI Algorithm Elite Challenge.<br>
 
-⚡ (IV) Project 4: ```Joint Decision-Making for Crop Planting and Sales Based on a Multi-Objective Stochastic Programming Model``` (Project Lead) (September 2024).<br>
+⚡ **( IV)  Project 4:** ```Joint Decision-Making for Crop Planting and Sales Based on a Multi-Objective Stochastic Programming Model``` (Project Lead) (September 2024).<br>
 **Task:** To address the crop planting optimization problem in rural North China, with key challenges including the uncertainty of price fluctuations, complex inter-crop relationships, and balancing long-term risk management.<br>
 **Solution:** Developed a multi-objective stochastic programming model, integrating Monte Carlo simulation with the NSGA-II algorithm to determine optimal planting strategies that balance profitability and risk.<br>
 **Personal Contributions:** Responsible for modeling and framework construction, writing sections on model and result analysis, visualization, and programming the penalty function patching.<br>
 **Achievement:** Hubei Provincial First Prize in the National College Student Mathematical Contest in Modeling.<br>
 
-⚡ (V) Project 5: ```Apple Recognition and Picking Point Localization Based on Residual Neural Network``` (Project Lead) (April 2024).<br>
+⚡ **( V ) Project 5:** ```Apple Recognition and Picking Point Localization Based on Residual Neural Network``` (Project Lead) (April 2024).<br>
 **Task:** To address the challenges of apple recognition and localization for picking robots under conditions of occlusion, overlap, and light/shadow interference.<br>
 **Solution:** Initially, apples were segmented using fuzzy clustering. Subsequently, an improved Canny edge detection algorithm was utilized for localization. Finally, the images were transformed into the HSV color space for classification using ResNet50.<br>
 **Personal Contributions:** Responsible for modeling and framework construction, writing sections on model and result analysis, visualization, and programming the fuzzy clustering and ResNet50 implementation.<br>
 **Achievement:** International First Prize (Outstanding Winner equivalent) in the Asia-Pacific Mathematical Contest in Modeling.<br>
 
-⚡ (VI) Project 6: ```Poverty Data Mining and Relative Poverty Identification under Big Data``` (Core Team Member).<br>
+⚡ **( VI ) Project 6:** ```Poverty Data Mining and Relative Poverty Identification under Big Data``` (Core Team Member).<br>
 **Task:** To address the multi-dimensional complexity of relative poverty identification and establish a scientific identification system for precise classification.<br>
 **Solution:** Constructed a multi-dimensional poverty-revitalization synergistic indicator system, performed feature selection based on Random Forest, and utilized a Bayesian cost-sensitive neural network for identification.<br>
 **Personal Contributions:** Responsible for modeling and framework construction, writing sections on preprocessing, model, and result analysis, visualization, and programming the feature selection implementation.<br>
@@ -70,23 +70,9 @@
 
 ### III. Future Plans
 🌱 I plan to delve deeply into the frontiers of Artificial Intelligence during my doctoral studies. Given the current trend of high interdisciplinary integration among AI branches, I aim to maintain an open mind to actively learn and explore various directions, including but not limited to Machine Learning Theory, Computer Vision, Natural Language Processing, Large Model Alignment or Lightweighting, Embodied Intelligence, and Large Model Safety. I aim to identify a specific research topic that ignites my passion.<br>
-🌱 My current research interests are particularly focused on directions built upon a solid foundation of theoretical derivation, can be closely integrated with deep learning models, and ultimately have clear vertical application scenarios. I aspire to explore the fundamental principles of intelligent behavior through rigorous mathematical modeling and theoretical analysis. Furthermore, I am committed to applying these theoretical insights to enhance existing deep learning algorithms' performance, interpretability, or generalization capabilities. For instance, my current exploration involves leveraging manifold geometry to approximate optimal transport for multi-modal time series alignment. Through this, I hope to uncover the intrinsic nature of how neural networks learn distributions and topological structures, and even investigate whether this approach can address the "shallow alignment" problem in large model safety, as well as how to discover multiple research problems and develop various models stemming from optimal transport theory.
+🌱 My current research interests are particularly focused on directions built upon a solid foundation of theoretical derivation, that can be closely integrated with deep learning models, and ultimately have clear vertical application scenarios. I aspire to explore the fundamental principles of intelligent behavior through rigorous mathematical modeling and theoretical analysis. Furthermore, I am committed to applying these theoretical insights to enhance existing deep learning algorithms' performance, interpretability, or generalization capabilities. For instance, my current exploration involves leveraging manifold geometry to approximate optimal transport for multi-modal time series alignment. Through this, I hope to uncover the intrinsic nature of how neural networks learn distributions and topological structures, and even investigate whether this approach can address the "shallow alignment" problem in large model safety, as well as how to discover multiple research problems and develop various models stemming from optimal transport theory.
 
 ### IV. Contact Information
 Phone: 13534926288
 Email: whutzwj@163.com
 
-<!--
-**WHUT-zwj/WHUT-zwj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
