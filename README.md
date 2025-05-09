@@ -5,12 +5,13 @@
 
 ### I. Research Papers
 **💬 ( I ) Journal Paper:** SCI Q1, Expert Systems with Applications, Independent First Author, Under Review<br>
+**GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction** <be>
 
-**GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction** <br>
 **Pain Points:** <br>
 **( i )** Current sentiment analysis methods exhibit insufficient market sentiment quantification and lack dynamic adaptive integration mechanisms for market fluctuations.<br>
 **( ii )** Transformer-based models' quadratic complexity limits long-term stock prediction while lacking finance-specific temporal inductive biases.<br>
-**( iii )** Traditional temporal tokenization paradigms forcibly merge multi-stock features, weakening stock correlation modeling while dramatically increasing computational costs.<br>
+**( iii )** Traditional temporal tokenization paradigms forcibly merge multi-stock features, weakening stock correlation modeling while dramatically increasing computational costs.<be>
+
 **Innovations:** <br>
 **( i )** Extracting comprehensive market sentiment representations from massive sentiment-analyzed news (polarity, volume, and distribution features), and implementing a Hierarchical Sentiment-gating Layer for dynamic adaptive integration of affective features with trading data.<br>
 **( ii )** Dynamically parameterized Intra-Stock Mamba Selection Layer introduces specialized financial inductive biases with time-series linear complexity<br>
@@ -20,11 +21,13 @@
 ```Project Link:``` https://github.com/WHUT-zwj/GHOST <br>
 
 **💬 ( II ) Conference Paper:** CCF B, European Conference on Artificial Intelligence (ECAI), Second Author, Under Review<br>
-**LAMM-ViT: AI Face Detection via Layer-Aware Modulation of Region-Guided Attention**<br>
+**LAMM-ViT: AI Face Detection via Layer-Aware Modulation of Region-Guided Attention**<be>
+
 **Pain Points:** <br>
 **( i )** Existing detection methods exhibit insufficient generalization capabilities against novel generative techniques, often over-relying on superficial artifacts rather than deep structural flaws.<br>
 **( ii )** Traditional attention mechanisms lack cross-layer dynamic adjustment capabilities, making it difficult to effectively capture the hierarchical and regional inconsistencies characteristic of forged faces.<br>
-**( iii )** Advanced generative models have inherent limitations in maintaining subtle structural correlations between facial regions, a weakness not yet fully exploited.<br>
+**( iii )** Advanced generative models have inherent limitations in maintaining subtle structural correlations between facial regions, a weakness not yet fully exploited.<be>
+
 **Innovations:** <br>
 **( i )** Proposed Region-Guided Multi-Head Attention (RG-MHA), which utilizes facial keypoints to precisely guide the model to focus on structural inconsistencies between regions.<br>
 **( ii )** Introduced Layer-Aware Mask Modulation (LAMM), enabling dynamic adjustment of regional attention across network depths to capture multi-level forgery features.<br>
