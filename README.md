@@ -34,21 +34,21 @@
 
 ### II. Research Project Experience<br>
 `Relevant project files:` https://github.com/WHUT-zwj/Project-Introduction <br>
-⚡ **( I ) Project 1:** Led a Provincial-level Undergraduate Entrepreneurial Practice Project — ```Wuxian Technology — Leader in Automotive 4D Imaging Millimeter-Wave Radar Antennas``` (March 2024 - Present).<br>
+⚡ **( I ) Project 1:** Led a Provincial-level Undergraduate Entrepreneurial Practice Project — ```Wuxian Technology — Leader in Automotive 4D Imaging Millimeter-Wave Radar Antennas``` (March 2024 - Present).
 **Link:**[Project 1](https://github.com/WHUT-zwj/Project-Introduction/tree/main/《吾线科技——车载4D成像毫米波雷达天线引领者》)
 
-⚡ **( II ) Project 2:** ```Olympic Medal Prediction Based on Spatio-temporal Distribution and Zero-Truncation Characteristics``` (Project Lead) (January 2024).<br>
+⚡ **( II ) Project 2:** ```Olympic Medal Prediction Based on Spatio-temporal Distribution and Zero-Truncation Characteristics``` (Project Lead) (January 2024).
 **Link:**[Project 2](https://github.com/WHUT-zwj/Project-Introduction/tree/main/基于时空分布和零截断特性的奥运奖牌预测)
 
-⚡ **( III ) Project 3**: ```AI-Generated Face Image Recognition Based on Dual-Path Feature Extraction``` (Core Team Member) (September 2024 - December 2024).<br>
+⚡ **( III ) Project 3**: ```AI-Generated Face Image Recognition Based on Dual-Path Feature Extraction``` (Core Team Member) (September 2024 - December 2024).
 **Link:**[Project 3](https://github.com/WHUT-zwj/Project-Introduction/tree/main/基于双路径特征提取的AI生成人脸图像识别)
 
-⚡ **( IV)  Project 4:** ```Joint Decision-Making for Crop Planting and Sales Based on a Multi-Objective Stochastic Programming Model``` (Project Lead) (September 2024).<br>
+⚡ **( IV)  Project 4:** ```Joint Decision-Making for Crop Planting and Sales Based on a Multi-Objective Stochastic Programming Model``` (Project Lead) (September 2024).
 **Link:**[Project 4](https://github.com/WHUT-zwj/Project-Introduction/tree/main/基于多目标随机规划模型的农作物种植与销售联合决策)
 
-⚡ **( V ) Project 5:** ```Apple Recognition and Picking Point Localization Based on Residual Neural Network``` (Project Lead) (April 2024).<br>
+⚡ **( V ) Project 5:** ```Apple Recognition and Picking Point Localization Based on Residual Neural Network``` (Project Lead) (April 2024).
 
-⚡ **( VI ) Project 6:** ```Poverty Data Mining and Relative Poverty Identification under Big Data``` (Core Team Member).<br>
+⚡ **( VI ) Project 6:** ```Poverty Data Mining and Relative Poverty Identification under Big Data``` (Core Team Member).
 **Link:**[Project 6](https://github.com/WHUT-zwj/Project-Introduction/tree/main/大数据下的贫困数据挖掘与相对贫困识别)
 
 ### III. Future Plans
