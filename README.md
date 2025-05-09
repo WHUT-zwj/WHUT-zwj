@@ -9,7 +9,7 @@
 **Pain Points:** <br>
 **( i )** Current sentiment analysis methods exhibit **insufficient** market sentiment quantification and **lack** dynamic adaptive integration mechanisms for market fluctuations.<br>
 **( ii )** Transformer-based models' quadratic complexity **limits** long-term stock prediction while **lacking** finance-specific temporal inductive biases.<br>
-**( iii )** Traditional temporal tokenization paradigms forcibly merge multi-stock features, **weakening** stock correlation modeling while dramatically increasing computational costs.<be>
+**( iii )** Traditional temporal tokenization paradigms forcibly merge multi-stock features, **weakening** stock correlation modeling while dramatically increasing computational costs.<br>
 **Innovations:** <br>
 **( i )** Extracting comprehensive market sentiment representations from massive sentiment-analyzed news (polarity, volume, and distribution features), and implementing a **Hierarchical Sentiment-gating Layer** for dynamic adaptive integration of affective features with trading data.<br>
 **( ii )** Dynamically parameterized **Intra-Stock Mamba Selection Layer** introduces specialized financial inductive biases with time-series linear complexity<br>
