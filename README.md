@@ -32,7 +32,7 @@
 
 
 ### II. Research Project Experience<be>
-`Detailed Information of Projects:` https://github.com/WHUT-zwj/Project-Introduction <br>
+`Detailed Information of Projects:` https://github.com/WHUT-zwj/Project-Introduction/blob/main/README.md <br>
 ⚡ **( I ) Project 1:** Led a Provincial-level Undergraduate Entrepreneurial Practice Project — ```Wuxian Technology — Leader in Automotive 4D Imaging Millimeter-Wave Radar Antennas``` (March 2024 - Present).
 **Link:**[Project 1](https://github.com/WHUT-zwj/Project-Introduction/tree/main/《吾线科技——车载4D成像毫米波雷达天线引领者》)
 
