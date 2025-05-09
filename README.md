@@ -33,7 +33,6 @@
 
 
 ### II. Research Project Experience<br>
-`Relevant project files:` https://github.com/WHUT-zwj/Project-Introduction <br>
 ⚡ **( I ) Project 1:** Led a Provincial-level Undergraduate Entrepreneurial Practice Project — ```Wuxian Technology — Leader in Automotive 4D Imaging Millimeter-Wave Radar Antennas``` (March 2024 - Present).
 **Link:**[Project 1](https://github.com/WHUT-zwj/Project-Introduction/tree/main/《吾线科技——车载4D成像毫米波雷达天线引领者》)
 
@@ -50,7 +49,7 @@
 
 ⚡ **( VI ) Project 6:** ```Poverty Data Mining and Relative Poverty Identification under Big Data``` (Core Team Member).
 **Link:**[Project 6](https://github.com/WHUT-zwj/Project-Introduction/tree/main/大数据下的贫困数据挖掘与相对贫困识别)
-
+`Detailed Information of Projects:` https://github.com/WHUT-zwj/Project-Introduction <br>
 ### III. Future Plans
 🌱 I plan to delve deeply into the frontiers of Artificial Intelligence during my doctoral studies. Given the current trend of high interdisciplinary integration among AI branches, I aim to maintain an open mind to actively learn and explore various directions, including but not limited to Machine Learning Theory, Computer Vision, Natural Language Processing, Large Model Alignment or Lightweighting, Embodied Intelligence, and Large Model Safety. I aim to identify a specific research topic that ignites my passion.<br>
 🌱 My current research interests are particularly focused on directions built upon a solid foundation of theoretical derivation, that can be closely integrated with deep learning models, and ultimately have clear vertical application scenarios. I aspire to explore the fundamental principles of intelligent behavior through rigorous mathematical modeling and theoretical analysis. Furthermore, I am committed to applying these theoretical insights to enhance existing deep learning algorithms' performance, interpretability, or generalization capabilities. For instance, my current exploration involves leveraging manifold geometry to approximate optimal transport for multi-modal time series alignment. Through this, I hope to uncover the intrinsic nature of how neural networks learn distributions and topological structures, and even investigate whether this approach can address the "shallow alignment" problem in large model safety, as well as how to discover multiple research problems and develop various models stemming from optimal transport theory.
