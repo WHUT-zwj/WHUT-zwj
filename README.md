@@ -30,9 +30,9 @@
 **( iii )** Advanced generative models have inherent limitations in maintaining subtle structural correlations between facial regions, a weakness not yet fully exploited.<be>
 
 **Innovations:** <br>
-**( i )** Proposed Region-Guided Multi-Head Attention (RG-MHA), which utilizes facial keypoints to precisely guide the model to focus on structural inconsistencies between regions.<br>
-**( ii )** Introduced Layer-Aware Mask Modulation (LAMM), enabling dynamic adjustment of regional attention across network depths to capture multi-level forgery features.<br>
-**( iii )** Designed a Mask Diversity Loss (Ldiv) to incentivize the model to learn diverse detection strategies, enhancing generalization performance against unknown generative techniques.<br>
+**( i )** Proposed **Region-Guided Multi-Head Attention (RG-MHA)**, which utilizes facial keypoints to precisely guide the model to focus on structural inconsistencies between regions.<br>
+**( ii )** Introduced **Layer-Aware Mask Modulation (LAMM)**, enabling dynamic adjustment of regional attention across network depths to capture multi-level forgery features.<br>
+**( iii )** Designed a **Mask Diversity Loss (Ldiv)** to incentivize the model to learn diverse detection strategies, enhancing generalization performance against unknown generative techniques.<br>
 **Personal Contributions:** Methodology writing, visualization, and assisting with comparative experiments.<br>
 
 
