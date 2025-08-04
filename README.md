@@ -4,7 +4,7 @@
 
 
 ### I. Research Papers
-**💬 ( I ) Journal Paper:** SCI Q1, Expert Systems with Applications, Independent First Author, Under Review<br>
+**💬 ( I ) Journal Paper:** SCI Q1, Expert Systems with Applications, Independent First Author, **under minor revision**<br>
 **GHOST: Sentiment-gated Mamba and Stock-wise Tokenization for Enhanced Stock Prediction** <be>
 **Pain Points:** <br>
 **( i )** Current sentiment analysis methods exhibit **insufficient** market sentiment quantification and **lack** dynamic adaptive integration mechanisms for market fluctuations.<br>
@@ -18,7 +18,7 @@
 **Personal Contributions:** Model construction, experimental design and implementation, visualization, and manuscript writing.<br>
 ```Project Link:``` https://github.com/WHUT-zwj/GHOST <br>
 
-**💬 ( II ) Conference Paper:** CCF B, European Conference on Artificial Intelligence (ECAI), Second Author, Under Review<br>
+**💬 ( II ) Conference Paper:** CCF B, European Conference on Artificial Intelligence (ECAI), Second Author, **Accepted**<br>
 **LAMM-ViT: AI Face Detection via Layer-Aware Modulation of Region-Guided Attention**<be>
 **Pain Points:** <br>
 **( i )** Existing detection methods exhibit **insufficient** generalization capabilities against novel generative techniques, often **over-relying** on superficial artifacts rather than deep structural flaws.<br>
